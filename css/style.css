@@ -1,0 +1,689 @@
+.tBlue {
+  color: #52c2f0; }
+
+.wrapper {
+  width: 940px;
+  margin: 0 auto; }
+
+.clear {
+  clear: both; }
+
+.left {
+  float: left; }
+
+.right {
+  float: right; }
+
+strong, .bold {
+  font-weight: bold; }
+
+.center {
+  text-align: center; }
+
+.justify {
+  text-align: justify; }
+
+.italic {
+  font-style: italic; }
+
+header {
+  width: 100%;
+  border-bottom: 2px solid #0069b4;
+  padding: 10px 0 0; }
+  header #horario {
+    float: left;
+    font: 16px "Ubuntu", sans-serif;
+    color: #52c2f0;
+    margin-top: 7px; }
+  header #logo {
+    float: left;
+    position: relative;
+    top: -10px; }
+    header #logo, header #logo svg {
+      width: 280px;
+      height: 104px; }
+  header #social {
+    float: right;
+    width: 270px; }
+    header #social a:hover p {
+      color: #0069b4 !important; }
+    header #social .fone {
+      width: 200px !important;
+      float: left;
+      margin-top: 8px !important; }
+      header #social .fone p {
+        font: 400 20px "Ubuntu", sans-serif !important;
+        float: left; }
+      header #social .fone .icon {
+        float: left;
+        width: 25px !important;
+        padding-right: 15px; }
+      header #social .fone .icon.icon-whatsapp {
+        position: relative;
+        top: 4px !important; }
+    header #social .networks {
+      float: right; }
+      header #social .networks a {
+        float: left;
+        padding: 5px;
+        background: #52c2f0;
+        margin-left: 8px; }
+        header #social .networks a, header #social .networks a svg {
+          width: 16px;
+          height: 16px; }
+        header #social .networks a svg * {
+          fill: #fff; }
+        header #social .networks a:hover {
+          background: #0069b4; }
+  header nav {
+    float: right;
+    margin-top: 35px; }
+    header nav ul li {
+      float: left; }
+      header nav ul li:nth-child(1) {
+        width: 145px; }
+        header nav ul li:nth-child(1) a {
+          background-image: url("../img/svg/icons/menu/clinica.svg") !important; }
+      header nav ul li:nth-child(2) {
+        width: 165px; }
+        header nav ul li:nth-child(2) a {
+          background-image: url("../img/svg/icons/menu/tratamento.svg") !important; }
+      header nav ul li:nth-child(3) {
+        width: 135px; }
+        header nav ul li:nth-child(3) a {
+          background-image: url("../img/svg/icons/menu/equipe.svg") !important; }
+      header nav ul li:nth-child(4) {
+        width: 95px; }
+        header nav ul li:nth-child(4) a {
+          background-image: url("../img/svg/icons/menu/contato.svg") !important;
+          background-position: 40px top;
+          text-align: right; }
+      header nav ul li:hover ul {
+        display: block; }
+      header nav ul li:hover a {
+        background-size: auto !important; }
+      header nav ul li a {
+        background-position: center top;
+        background-repeat: no-repeat;
+        background-size: 0 0 !important;
+        display: block;
+        padding: 30px 0 11px;
+        text-align: center;
+        font: 16px "Ubuntu", sans-serif;
+        color: #0069b4;
+        text-align: center; }
+      header nav ul li ul {
+        position: absolute;
+        z-index: 200;
+        display: none;
+        width: 330px;
+        background: #0069b4;
+        padding: 10px 0;
+        border-top: 10px solid #fff;
+        margin-left: 10px; }
+        header nav ul li ul li {
+          float: none;
+          width: inherit !important; }
+          header nav ul li ul li a {
+            color: #fff;
+            font: 300 15px "Ubuntu", sans-serif !important;
+            text-align: left !important;
+            padding: 3px 15px; }
+            header nav ul li ul li a:hover {
+              font-weight: 300 !important;
+              color: #52c2f0; }
+
+.fone .icon {
+  width: 24px;
+  height: 25px;
+  float: left;
+  font-size: 0;
+  line-height: 0; }
+  .fone .icon.icon-fone {
+    background: url("../img/svg/fone.svg") no-repeat center top; }
+  .fone .icon.icon-whatsapp {
+    background: url("../img/svg/whatsapp.svg") no-repeat center top; }
+  .fone .icon.icon-fone.footer-icon, .fone .icon.icon-whatsapp.footer-icon {
+    margin-top: 0 !important;
+    float: left !important;
+    position: relative;
+    top: 2px;
+    margin-right: 5px; }
+  .fone .icon.icon-fone.contact-icon, .fone .icon.icon-whatsapp.contact-icon {
+    position: relative;
+    top: 2px;
+    margin-right: 5px; }
+.fone p {
+  color: #52c2f0 !important;
+  font: 400 20px "Ubuntu", sans-serif !important;
+  float: left !important;
+  margin: -2px 0 0 5px !important; }
+.fone a:hover p {
+  color: #0069b4 !important; }
+
+.networks ul li {
+  float: left;
+  margin-left: 11px; }
+  .networks ul li a {
+    display: block; }
+    .networks ul li a:hover svg * {
+      fill: #0069b4; }
+
+#homeSlider, #royalSlider {
+  width: 1920px;
+  height: 550px; }
+
+#homeSlider {
+  position: relative;
+  left: 50%;
+  margin-left: -960px; }
+
+#smallSlider {
+  width: 1920px;
+  height: 190px;
+  position: relative;
+  z-index: 100;
+  left: 50%;
+  margin-left: -960px;
+  background: url("../img/smallSlider/smallSlider-01.jpg"); }
+  #smallSlider h1 {
+    font: 300 36px "Ubuntu", sans-serif;
+    color: #fff;
+    padding-top: 100px; }
+
+main > .wrapper {
+  padding: 30px 0 100px; }
+main .wrapper hgroup {
+  margin-bottom: 18px; }
+  main .wrapper hgroup h2 {
+    font: 300 50px "Ubuntu", sans-serif;
+    color: #52c2f0;
+    line-height: 48px;
+    letter-spacing: -2px; }
+  main .wrapper hgroup.withIcon i {
+    width: 103px;
+    height: 103px;
+    float: left;
+    margin-right: 20px;
+    border-radius: 50%;
+    border: 1px solid #52c2f0; }
+    main .wrapper hgroup.withIcon i svg {
+      height: 54px;
+      position: relative;
+      left: 50%;
+      margin-left: -34px;
+      margin-top: 26px; }
+  main .wrapper hgroup.withIcon h2 {
+    float: left;
+    margin-top: 5px; }
+main p {
+  font: 300 16px "Ubuntu", sans-serif;
+  color: #888;
+  line-height: 24px;
+  letter-spacing: -.1px; }
+main p.bottomPadding {
+  padding-bottom: 18px; }
+main .bigBlock {
+  background: #52c2f0;
+  text-align: center; }
+  main .bigBlock p {
+    color: #fff !important;
+    font-weight: normal;
+    font-size: 22px;
+    letter-spacing: 0px !important; }
+
+#equipe {
+  width: 940px;
+  margin: 0 auto; }
+  #equipe ul li {
+    padding: 30px 0 35px;
+    border-bottom: 1px solid #52c2f0;
+    /*
+    img{
+      width:205px;
+      height:270px;
+      background:#555;
+    }
+    .right{width:535px;}
+    */ }
+    #equipe ul li:first-child {
+      padding-top: 0 !important; }
+    #equipe ul li:last-child {
+      margin-bottom: 0;
+      border-bottom: 0 !important; }
+    #equipe ul li .right {
+      width: 940px; }
+    #equipe ul li p {
+      line-height: 22px;
+      letter-spacing: .3px;
+      text-align: justify; }
+    #equipe ul li h3, #equipe ul li h4 {
+      font: 300 38px "Ubuntu", sans-serif;
+      color: #52c2f0;
+      line-height: 48px;
+      letter-spacing: -2px; }
+    #equipe ul li h4 {
+      font-size: 28px;
+      line-height: 35px;
+      margin-bottom: 12px; }
+
+.grid-x3 {
+  width: 254px;
+  float: left;
+  padding: 0 28px; }
+  .grid-x3 i {
+    width: 69px;
+    height: 70px;
+    display: block;
+    margin: 0 auto 15px; }
+  .grid-x3 h2 {
+    font: 22px "Ubuntu", sans-serif;
+    color: #888;
+    text-align: center;
+    margin-bottom: 30px; }
+  .grid-x3 p {
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: -.3px; }
+
+.grid-x3.middle {
+  width: 264px; }
+
+.rightBlueBorder {
+  background: url("../img/rightBlueBorder.png") no-repeat right 80px; }
+
+.knowMore-link {
+  float: left;
+  font: 300 18px "Ubuntu", sans-serif;
+  color: #52c2f0;
+  border: 1px solid #52c2f0;
+  padding: 12px 18px; }
+  .knowMore-link:hover {
+    color: #fff;
+    background: #52c2f0; }
+
+.tratamento {
+  margin-top: 50px; }
+  .tratamento.block {
+    border: 1px solid #52c2f0;
+    padding: 57px 39px;
+    margin-top: 0 !important; }
+  .tratamento .tooth {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    bottom: -81px;
+    margin-top: -50px;
+    left: 50%;
+    margin-left: -25px;
+    background: url("../img/svg/icons/tooth-icon.svg"); }
+  .tratamento h2 {
+    color: #52c2f0;
+    font: 300 50px "Ubuntu", sans-serif;
+    margin-top: -6px;
+    margin-bottom: 15px;
+    line-height: 48px;
+    letter-spacing: -2px; }
+  .tratamento p {
+    text-align: justify;
+    letter-spacing: -.1px; }
+  .tratamento a.bigBlock {
+    float: left;
+    padding: 25px 35px;
+    font: 300 22px "Ubuntu", sans-serif;
+    color: #fff; }
+    .tratamento a.bigBlock:hover {
+      background: #0069b4; }
+  .tratamento .bigBlock .tooth {
+    bottom: -60px !important; }
+
+.tooth-bar, .chair-bar, .mail-bar {
+  width: 940px;
+  height: 50px;
+  margin: 0 auto; }
+
+.tooth-bar {
+  background: url("../img/svg/tooth-bar.svg"); }
+
+.chair-bar {
+  background: url("../img/svg/chair-bar.svg"); }
+
+.mail-bar {
+  background: url("../img/svg/mail-bar.svg"); }
+
+.email {
+  display: block;
+  width: 330px; }
+  .email i {
+    float: left;
+    width: 36px;
+    height: 17px;
+    margin-top: 3px; }
+  .email p {
+    float: right;
+    color: #52c2f0;
+    font-size: 18px;
+    letter-spacing: -.5px; }
+  .email:hover p {
+    color: #0069b4; }
+  .email:hover i svg * {
+    fill: #0069b4; }
+
+#contato-info {
+  margin: 18px 0 23px; }
+  #contato-info .fone .icon {
+    width: 29px;
+    height: 31px;
+    background-size: 29px 31px;
+    margin-top: -5px; }
+  #contato-info .email i {
+    margin-top: 0px; }
+    #contato-info .email i, #contato-info .email i svg {
+      width: 42px;
+      height: 20px; }
+  #contato-info .email p {
+    font-size: 22px;
+    font-weight: normal; }
+
+#mapArea {
+  position: relative;
+  left: 50%;
+  margin: -60px 0 175px -680px;
+  border: 1px solid #52c2f0;
+  background: #f3f1ed; }
+  #mapArea, #mapArea iframe {
+    width: 1360px;
+    height: 400px; }
+  #mapArea a.bigBlock {
+    position: relative;
+    float: right;
+    color: #fff;
+    font: 300 22px "Ubuntu", sans-serif;
+    padding: 17px 20px;
+    margin-top: -33px;
+    border: 1px solid #52c2f0; }
+    #mapArea a.bigBlock:hover {
+      background: #fff;
+      color: #52c2f0; }
+
+#fotosEstrutura {
+  margin-top: 35px;
+  margin-left: -12px;
+  height: 240px; }
+
+#fotosEstrutura ul li {
+  width: 282px;
+  height: 240px;
+  float: left;
+  margin-left: 30px;
+  position: relative;
+  z-index: 150; }
+  #fotosEstrutura ul li img#efeito {
+    display: none; }
+  #fotosEstrutura ul li img#normal:hover img#efeito {
+    display: block; }
+  #fotosEstrutura ul li img {
+    border: 1px solid #52c2f0;
+    padding: 9px 10px; }
+  #fotosEstrutura ul li img, #fotosEstrutura ul li .mask {
+    width: 260px !important;
+    height: 195px !important; }
+  #fotosEstrutura ul li .mask {
+    position: absolute;
+    display: none;
+    margin-top: 10px;
+    margin-left: 11px;
+    background: #000;
+    font-size: 0;
+    line-height: 0; }
+  #fotosEstrutura ul li:hover .mask {
+    display: block; }
+  #fotosEstrutura ul li p {
+    float: right;
+    margin-right: 10px;
+    color: #52c2f0;
+    text-transform: uppercase; }
+
+#estruturaButtons {
+  position: absolute;
+  margin-top: 115px;
+  width: 960px;
+  margin-left: -8px; }
+  #estruturaButtons a {
+    width: 60px;
+    height: 60px;
+    position: relative;
+    z-index: 200; }
+    #estruturaButtons a#prev {
+      float: left; }
+    #estruturaButtons a#next {
+      float: right; }
+    #estruturaButtons a:hover svg g circle {
+      fill: #52c2f0; }
+    #estruturaButtons a:hover svg g g polygon {
+      fill: #fff !important; }
+
+.contato-page main .wrapper hgroup.withIcon.contact-title i svg {
+  margin-left: -44px !important;
+  margin-top: 20px !important;
+  height: 60px !important; }
+
+#royalSlider {
+  width: 1920px;
+  height: 550px; }
+
+.rsContent {
+  color: #fff;
+  font-size: 24px;
+  line-height: 32px;
+  float: left;
+  position: absolute;
+  z-index: 0;
+  inset: 0;
+  opacity: 0;
+  transition: opacity 0.6s ease; }
+
+.rsContent.is-active {
+  opacity: 1;
+  z-index: 2; }
+
+.rsContent .rsImg {
+  position: absolute;
+  inset: 0; }
+
+.bContainer {
+  position: absolute;
+  top: 220px;
+  left: 0;
+  width: 100%;
+  height: auto;
+  z-index: 3; }
+
+.rsABlock {
+  position: relative;
+  display: block;
+  left: auto;
+  top: auto;
+  line-height: 62px !important;
+  font: 300 62px "Ubuntu", sans-serif;
+  font-style: italic;
+  letter-spacing: -3px !important; }
+
+.txtCent {
+  text-align: center;
+  width: 100%; }
+
+.blockHeadline {
+  font-weight: 500 !important;
+  font-style: normal !important; }
+
+.rsMinW .rsBullets {
+  position: absolute;
+  width: 90px;
+  left: 50%;
+  margin-left: -45px;
+  bottom: 10px;
+  z-index: 9999 !important;
+  height: auto;
+  text-align: center;
+  line-height: 20px;
+  overflow: hidden; }
+
+.rsMinW .rsBullet {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  padding: 6px 5px 6px 4px;
+  position: relative;
+  z-index: 9999; }
+
+.rsMinW .rsBullet span {
+  display: block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  background: none;
+  position: absolute;
+  z-index: 9999;
+  box-shadow: none; }
+
+.rsMinW .rsBullet.rsNavSelected span {
+  background: #fff;
+  position: absolute;
+  z-index: 9999; }
+
+#lightbox {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.82);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 5000; }
+
+#lightbox[hidden] {
+  display: none; }
+
+#lightboxImage {
+  max-width: min(92vw, 1200px);
+  max-height: 86vh;
+  border: 4px solid #fff;
+  box-sizing: border-box;
+  background: #fff; }
+
+#lightboxClose,
+#lightboxPrev,
+#lightboxNext {
+  position: absolute;
+  border: 0;
+  background: rgba(255, 255, 255, 0.16);
+  color: #fff;
+  font: 300 38px "Ubuntu", sans-serif;
+  cursor: pointer;
+  line-height: 1; }
+
+#lightboxClose {
+  top: 24px;
+  right: 24px;
+  width: 44px;
+  height: 44px; }
+
+#lightboxPrev,
+#lightboxNext {
+  top: 50%;
+  transform: translateY(-50%);
+  width: 54px;
+  height: 72px; }
+
+#lightboxPrev {
+  left: 24px; }
+
+#lightboxNext {
+  right: 24px; }
+
+@media screen and (max-width: 1160px) {
+  .rsABlock {
+    line-height: 46px !important; } }
+
+footer p, footer h3, footer #equipe ul li h4, #equipe ul li footer h4 {
+  color: #888;
+  text-align: center;
+  font-family: "Ubuntu", sans-serif; }
+footer h3, footer #equipe ul li h4, #equipe ul li footer h4 {
+  font-size: 20px;
+  margin-bottom: 40px; }
+footer #about {
+  background: #f2f2f2;
+  padding: 38px 0 10px; }
+footer .fone {
+  display: block;
+  width: 145px;
+  margin: 0 auto 4px; }
+  footer .fone i {
+    margin-top: -5px; }
+  footer .fone p {
+    font-size: 18px;
+    letter-spacing: -.6px; }
+  footer .fone + p {
+    font-size: 16px;
+    padding: 7px 0 13px; }
+footer .email {
+  width: 330px;
+  margin: 0 auto; }
+footer .networks {
+  margin: 23px auto 5px;
+  width: 85px; }
+  footer .networks ul li {
+    margin-left: 15px; }
+    footer .networks ul li:first-child {
+      margin-left: 0; }
+    footer .networks ul li a, footer .networks ul li a svg {
+      width: 26px;
+      height: 26px; }
+    footer .networks ul li a svg * {
+      fill: #888; }
+footer #copyright {
+  background: #52c2f0;
+  padding: 30px 0 20px; }
+  footer #copyright p {
+    font-size: 12px;
+    float: left;
+    color: #fff;
+    margin-top: 7px;
+    margin-left: 225px; }
+  footer #copyright a {
+    float: right !important; }
+    footer #copyright a svg * {
+      fill: #fff; }
+    footer #copyright a:hover svg * {
+      fill: #0069b4 !important; }
+
+form label {
+  color: #52c2f0;
+  font: 300 18px "Ubuntu", sans-serif; }
+form input, form textarea {
+  border: 1px solid #52c2f0;
+  color: #52c2f0;
+  font: normal 18px "Ubuntu", sans-serif;
+  padding: 17px 10px;
+  margin-top: 1px;
+  text-transform: uppercase; }
+form input[type=text], form input[type=email] {
+  width: 423px;
+  margin-top: 1px;
+  margin-bottom: 20px; }
+form textarea {
+  width: 448px;
+  height: 218px; }
+form input[type=submit] {
+  padding: 15px 35px;
+  color: #fff;
+  font: 300 22px "Ubuntu", sans-serif;
+  float: right;
+  margin-top: 14px; }
+  form input[type=submit]:hover {
+    background: #fff;
+    color: #52c2f0;
+    cursor: pointer; }
+
