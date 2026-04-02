@@ -221,6 +221,22 @@ main p {
   color: #888;
   line-height: 24px;
   letter-spacing: -.1px; }
+.page-note {
+  margin-bottom: 35px;
+  padding: 14px 18px;
+  border-left: 4px solid #52c2f0;
+  background: #f7fcff;
+  color: #0069b4;
+  font: 400 15px/24px "Ubuntu", sans-serif;
+  text-align: left; }
+  .page-note a {
+    color: #0069b4;
+    text-decoration: underline; }
+  .page-note.team-note {
+    margin-top: 26px; }
+  .page-note.after-treatment {
+    clear: both;
+    margin-top: 96px; }
 main p.bottomPadding {
   padding-bottom: 18px; }
 main .bigBlock {
@@ -266,6 +282,8 @@ main .bigBlock {
       font-size: 28px;
       line-height: 35px;
       margin-bottom: 12px; }
+    #equipe ul li h3 em {
+      font-style: italic; }
 
 .grid-x3 {
   width: 254px;
@@ -661,6 +679,13 @@ footer #copyright {
     color: #fff;
     margin-top: 7px;
     margin-left: 225px; }
+  footer #copyright p.legal-id {
+    float: none;
+    clear: both;
+    max-width: 760px;
+    margin: 18px auto 0;
+    line-height: 18px;
+    text-align: center; }
   footer #copyright a {
     float: right !important; }
     footer #copyright a svg * {
